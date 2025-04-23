@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Niconne, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,11 +28,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <Navbar />
-      <body className={`${inter.variable} ${niconne.variable} antialiased`}>
-        {children}
-      </body>
-    </html>
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <html lang="en">
+        <body className={`${inter.variable} ${niconne.variable} antialiased`}>
+          {children}
+        </body>
+      </html>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
