@@ -10,11 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-epdgreen: #1c2d10;
+  --color-epdyellow: #cda530;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -23,4 +25,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-niconne {
+  font-family: var(--font-niconne), cursive;
+}
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
 }

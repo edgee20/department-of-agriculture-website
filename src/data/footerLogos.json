@@ -1,0 +1,36 @@
+{
+  "footerLogos": [
+    {
+      "src": "/images/footer-logos/Gov_PH.png",
+      "alt": "Gov_PH Logo"
+    },
+    {
+      "src": "/images/footer-logos/President.png",
+      "alt": "President Logo"
+    },
+    {
+      "src": "/images/footer-logos/Vice_President.png",
+      "alt": "Vice_President Logo"
+    },
+    {
+      "src": "/images/footer-logos/Senate.png",
+      "alt": "Senate Logo"
+    },
+    {
+      "src": "/images/footer-logos/Congress.png",
+      "alt": "Congress Logo"
+    },
+    {
+      "src": "/images/footer-logos/Supreme_Court.png",
+      "alt": "Supreme_Court Logo"
+    },
+    {
+      "src": "/images/footer-logos/Court_of_Appeals.png",
+      "alt": "Court_of_Appeals Logo"
+    },
+    {
+      "src": "/images/footer-logos/Sadiganbayan.png",
+      "alt": "Sadiganbayan Logo"
+    }
+  ]
+}

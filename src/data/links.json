@@ -1,0 +1,21 @@
+{
+  "links": [
+    { "title": "HOME", "link": "/" },
+    { "title": "SERIVICES", "link": "/" },
+    { "title": "GALLERY", "link": "/" },
+    { "title": "SCHEDULE", "link": "/" },
+    { "title": "CONTACT US", "link": "/" }
+  ],
+  "footer": [
+    { "title": "GOVPH", "link": "https://www.gov.ph/" },
+    {
+      "title": "Data Privacy Notice",
+      "link": "https://www.da.gov.ph/data-privacy-notice/"
+    },
+    {
+      "title": "Directory of Officials",
+      "link": "https://www.da.gov.ph/about-us/directory-of-officials/"
+    },
+    { "title": "Open Data Portal", "link": "https://data.gov.ph/index/home" }
+  ]
+}
