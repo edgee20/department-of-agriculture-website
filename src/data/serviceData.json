@@ -1,0 +1,185 @@
+{
+  "services_2": [
+    {
+      "category": "ATI ACCREDITATION SERVICES",
+      "services_offered": [
+        "Certification of Learning Site for Agriculture (LSA)",
+        "Accreditation of Private Agriculture and Fisheries Extension Service Provider (PAF-ESP)"
+      ],
+      "agency": {
+        "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
+        "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines 1100",
+        "tel": "(02) 8929.8541 to 49",
+        "email": "director@ati.da.gov.ph",
+        "website": "https://ati2.da.gov.ph/ati-main/content/"
+      }
+    },
+    {
+      "category": "BAFE REGULATORY SERVICES",
+      "services_offered": [
+        "Registration of Agricultural and Fisheries Machinery and Equipment",
+        "Certificate of Conformity for Agricultural and Fisheries Machinery"
+      ],
+      "agency": {
+        "name": "BUREAU OF AGRICULTURAL AND FISHERIES ENGINEERING (BAFE)",
+        "address": "Sugar Center, Annex II Building Extension, North Avenue, Diliman, Quezon City, Philippines",
+        "tel": ["(02) 8351.8120", "(02) 8294.9741"],
+        "email": "bafe@da.gov.ph",
+        "website": "https://bafe.gov.ph"
+      }
+    },
+    {
+      "category": "BAFS REGULATORY AND AGRICULTURAL ASSISTANCE SERVICES",
+      "services_offered": [
+        "Official Accreditation of Organic Certifying Bodies (OCBs)",
+        "Registration of Organic Farms / Producers",
+        "Registration of Organic Input Producer",
+        "Registration of Organic Input Product",
+        "Experimental Use Permit (EUP) – Organic Bio-Control Agent (OBCA)",
+        "Registration of Organic Input Importation or Exportation Permit"
+      ],
+      "agency": {
+        "name": "BUREAU OF AGRICULTURE AND FISHERIES STANDARDS (BAFS)",
+        "address": "BPI Compound, Visayas Avenue, Diliman, Quezon City, Philippines 1101",
+        "tel": "(632) 8928.8756 to 65 Local: 3301 to 3325",
+        "email": "bafs@da.gov.ph",
+        "website": "http://www.bafs.da.gov.ph/"
+      }
+    },
+    {
+      "category": "PLANTS AND BY-PRODUCTS SERVICES",
+      "services_offered": [
+        "Accreditation of Seed Grower / Producer",
+        "Application for Seed Certification",
+        "Application for Seed Testing",
+        "Application for Plant Material Certification of Asexually Propagated Seedling",
+        "Application for Plant Material Certification of Trees",
+        "Application for Plant Nursery Accreditation",
+        "Application for Plant Tissue Culture Facility Accreditation",
+        "Application for Laboratory Accreditation",
+        "Application for Laboratory Analysis",
+        "Application for Cold Storage Warehouse Accreditation",
+        "Application for PhilGAP Certification",
+        "Plant Pest Diagnosis",
+        "Plant Identification and Certification",
+        "Distribution and Sale of Vegetable Seeds and Planting Materials",
+        "Application for Crop Variety Registration",
+        "Application for Plant Variety Registration",
+        "Importers Registration",
+        "Application for Sanitary and Phytosanitary Import Clearance (SPSIC)",
+        "Application for Registration of Farm / Growers",
+        "Application for License to Export of Fresh Fruit and Vegetable",
+        "Application for License to Operate – Quarantine Treatment Provider",
+        "Application and Issuance of Phytosanitary Certificate",
+        "Issuance of Clearance for Domestic Transport",
+        "Application for License to Operate of Packing Facility for Fruits and Vegetables",
+        "Application for Issuance of Biosafety Permit for Direct Use as Food and Feed, or for Processing",
+        "Application for Issuance of Biosafety Permit for Commercial Propagation",
+        "Application for of Biosafety Permit for Field Trial"
+      ],
+      "agency": {
+        "name": "BUREAU OF PLANT INDUSTRY (BPI)",
+        "address": "692 San Andres Street, Malate, Manila, Philippines 1004",
+        "tel": "(02) 8525.7857 / (02) 8525.7909",
+        "fax": "(02) 8521.7650",
+        "email": "info@buplant.da.gov.ph",
+        "website": "https://www.buplant.da.gov.ph/"
+      }
+    },
+    {
+      "category": "ANIMALS AND BY-PRODUCTS SERVICES",
+      "services_offered": [
+        "Regulatory Services",
+        "Research and Development",
+        "Information, Education and Communication",
+        "Good Animal Husbandry Practices (GAHP) Certification Program"
+      ],
+      "agency": {
+        "name": "BUREAU OF ANIMAL INDUSTRY (BAI)",
+        "address": "Visayas Avenue, Diliman, Quezon City, Philippines 1100",
+        "tel": "(632) 8925.4343 / (632) 8928.1778",
+        "fax": "(632) 8928.2429",
+        "email": "dir.bai@manila-online.net",
+        "website": "http://www.bai.da.gov.ph"
+      }
+    },
+    {
+      "category": "MEATS AND BY-PRODUCTS SERVICES",
+      "services_offered": [
+        "Accreditation, Licensing, and Registration",
+        "Laboratory Testing and Analysis",
+        "License to Import",
+        "Meat Standards Development and Consumer Protection",
+        "Plant Operations Standards and Monitoring"
+      ],
+      "agency": {
+        "name": "NATIONAL MEAT INSPECTION SERVICE (NMIS)",
+        "address": "#4 Visayas Avenue, Barangay Vasra, Quezon City, Philippines",
+        "tel": "(02) 8924.7980",
+        "email": "nmis@nmis.gov.ph",
+        "website": "https://nmis.gov.ph/"
+      }
+    },
+    {
+      "category": "FISH AND BY-PRODUCTS SERVICES",
+      "services_offered": [
+        "Issuance of Certificate of Hazard Analysis",
+        "Chemical and Microbiological Services",
+        "Analytical Services for Marine Biotoxins",
+        "Issuance of Fish Health Laboratory Results",
+        "Issuance of Sanitary & Phytosanitary Clearance to Import (Old Clients)",
+        "Issuance of Sanitary & Phytosanitary Clearance to Import (New Applicants)",
+        "Issuance of Export Permit for Fish and By-Products (Old Clients)",
+        "Issuance of Export Permit for Fish and By-Products (New Applicants)",
+        "Inspection and Clearance of Imported/Incoming Fish and By-Products via the MDA/NAIA",
+        "Issuance of Clearance to Import Fishing Vessels",
+        "Issuance of Commercial Fishing/Gear License",
+        "Issuance of Fishing Gear Registration"
+      ],
+      "agency": {
+        "name": "BUREAU OF FISHERIES AND AQUATIC RESOURCES (BFAR)",
+        "address": "PCA Building, Diliman, Quezon City, Philippines",
+        "tel": "(632) 8929.8074 / (632) 8924.9597",
+        "email": "info@bfar.da.gov.ph",
+        "website": "https://www.bfar.da.gov.ph/"
+      }
+    },
+    {
+      "category": "FERTILIZER AND PESTICIDE RELATED SERVICES",
+      "services_offered": [
+        "Fertilizer Regulations Division (FRD)",
+        "Pesticide Regulations Division (PRD)",
+        "Laboratory Services Division (LSD)",
+        "Planning, Management, and Information Division (PMID)",
+        "Field Units (FUs)"
+      ],
+      "agency": {
+        "name": "FERTILIZER AND PESTICIDE AUTHORITY (FPA)",
+        "address": "FPA Building, BAI Compound, Visayas Avenue, Barangay Vasra, Diliman, Quezon City, Philippines",
+        "tel": "(02) 8920.8173 / (02) 8426.1572 / (02) 8920.8573",
+        "email": "fpacentral77@gmail.com",
+        "website": "https://fpa.da.gov.ph/NW/index.php"
+      }
+    }
+  ],
+  "services_4": [
+    {
+      "category": "Agricultural Credit and Financing Programs",
+      "services_offered": [
+        "Survival and Recovery (SURE) Assistance Program",
+        "Kapital Access for Young Agripreneurs (KAYA)",
+        "Agri-Negosyo Loan Program (ANYO)",
+        "Accessible Loans for Empowered, Resilient, and Transformed Agrarian Reform Beneficiary Organizations (ALERT ARBOs) Program"
+      ],
+      "agency": {
+        "name": "AGRICULTURAL CREDIT POLICY COUNCIL (ACPC)",
+        "address": "28th Floor, One San Miguel Avenue Building, San Miguel Avenue cor. Shaw Boulevard, Pasig City 1605, Philippines",
+        "tel": ["(02) 8634-3320 to 21", "(02) 8634-3326"],
+        "fax": "(02) 8634-3319",
+        "email": "info@acpc.gov.ph",
+        "website": "https://acpc.gov.ph/"
+      }
+    }
+  ],
+  "services_5": []
+}
