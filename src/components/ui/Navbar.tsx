@@ -4,8 +4,33 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { links } from "@/data/links.json";
+import { HiMenu, HiMenuAlt3 } from "react-icons/hi";
+
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [menuOpened, setMenuOpened] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const COLOR_CONFIG = isScrolled
+    ? "bg-white text-epdgreen"
+    : "bg-black/80 text-white";
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 980) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,11 +43,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <main className="fixed top-0 left-0 w-full z-50 max-h-[71.5px]">
+    <main className="fixed top-0 left-0 w-full z-50">
       <div
-        className={`flex items-center justify-between ransition-all duration-300 ease-in-out ${
-          isScrolled ? "bg-white text-epdgreen" : "bg-black/80"
-        }`}
+        className={`flex items-center justify-between transition-all duration-300 ease-in-out ${COLOR_CONFIG}`}
       >
         {/* Left section */}
         <div className=" flex items-center ">
@@ -65,15 +88,42 @@ export default function Navbar() {
         </div>
 
         {/* Right section */}
-        <div className="flex justify-end font-bold font-inter text-[14px] pr-5">
-          {links.map((value, index) => {
-            return (
-              <Link key={index} href={`${value.link}`} className="px-4">
-                {value.title}
-              </Link>
-            );
-          })}
-        </div>
+        {/* Mobile View */}
+        {isMobile ? (
+          <>
+            <div className="flex justify-end font-bold font-inter text-[14px] pr-5">
+              <button onClick={() => setMenuOpened(!menuOpened)}>
+                {menuOpened ? <HiMenuAlt3 /> : <HiMenu />}
+              </button>
+            </div>
+            {menuOpened && (
+              <div
+                className={`absolute z-[-1] top-13 right-0 w-full p-5 flex flex-col items-end font-bold transform transition-all duration-300 ease-in-out ${COLOR_CONFIG}`}
+              >
+                {links.map((value, index) => (
+                  <Link
+                    key={index}
+                    href={`${value.link}`}
+                    className="px-4 py-2"
+                  >
+                    {value.title}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </>
+        ) : (
+          // Desktop View
+          <div className="flex justify-end font-bold font-inter text-[14px] pr-5">
+            {links.map((value, index) => {
+              return (
+                <Link key={index} href={`${value.link}`} className="px-4">
+                  {value.title}
+                </Link>
+              );
+            })}
+          </div>
+        )}
       </div>
       <hr
         className={`border-t-2 ${
