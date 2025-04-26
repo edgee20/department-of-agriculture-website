@@ -41,7 +41,7 @@
       "agency": {
         "name": "BUREAU OF AGRICULTURE AND FISHERIES STANDARDS (BAFS)",
         "address": "BPI Compound, Visayas Avenue, Diliman, Quezon City, Philippines 1101",
-        "tel": "(632) 8928.8756 to 65 Local: 3301 to 3325",
+        "tel": "(632) 8928.8756 to 65",
         "email": "bafs@da.gov.ph",
         "website": "http://www.bafs.da.gov.ph/"
       }
@@ -80,7 +80,7 @@
       "agency": {
         "name": "BUREAU OF PLANT INDUSTRY (BPI)",
         "address": "692 San Andres Street, Malate, Manila, Philippines 1004",
-        "tel": "(02) 8525.7857 / (02) 8525.7909",
+        "tel": ["(02) 8525.7857", "(02) 8525.7909"],
         "fax": "(02) 8521.7650",
         "email": "info@buplant.da.gov.ph",
         "website": "https://www.buplant.da.gov.ph/"
@@ -97,7 +97,7 @@
       "agency": {
         "name": "BUREAU OF ANIMAL INDUSTRY (BAI)",
         "address": "Visayas Avenue, Diliman, Quezon City, Philippines 1100",
-        "tel": "(632) 8925.4343 / (632) 8928.1778",
+        "tel": ["(632) 8925.4343", "(632) 8928.1778"],
         "fax": "(632) 8928.2429",
         "email": "dir.bai@manila-online.net",
         "website": "http://www.bai.da.gov.ph"
@@ -139,7 +139,7 @@
       "agency": {
         "name": "BUREAU OF FISHERIES AND AQUATIC RESOURCES (BFAR)",
         "address": "PCA Building, Diliman, Quezon City, Philippines",
-        "tel": "(632) 8929.8074 / (632) 8924.9597",
+        "tel": ["(632) 8929.8074", "(632) 8924.9597"],
         "email": "info@bfar.da.gov.ph",
         "website": "https://www.bfar.da.gov.ph/"
       }
@@ -156,9 +156,45 @@
       "agency": {
         "name": "FERTILIZER AND PESTICIDE AUTHORITY (FPA)",
         "address": "FPA Building, BAI Compound, Visayas Avenue, Barangay Vasra, Diliman, Quezon City, Philippines",
-        "tel": "(02) 8920.8173 / (02) 8426.1572 / (02) 8920.8573",
+        "tel": ["(02) 8920.8173", "(02) 8426.1572", "(02) 8920.8573"],
         "email": "fpacentral77@gmail.com",
         "website": "https://fpa.da.gov.ph/NW/index.php"
+      }
+    }
+  ],
+  "services_3": [
+    {
+      "category": "Agribusiness and Marketing Assistance",
+      "services_offered": [
+        {
+          "title": "Market Information",
+          "description": "Provision of timely and reliable market information and analysis to agribusiness stakeholders. Updated data on prices along the value chain of basic agricultural commodities are regularly gathered and consolidated. Periodic updates and analyses on prices, volume, supply and demand are published in official websites and disseminated to stakeholders to provide insights on trends and factors affecting the agricultural marketing system to help market players make informed business decisions. Market research of Philippine agricultural products are undertaken to identify new local and international markets. The insights serve as guide to planners, producers and processors in crafting market development strategies in expanding their markets."
+        },
+        {
+          "title": "Market Linkage and Product Promotion",
+          "description": "Facilitation of linkages of farmers and fisherfolk enterprises (FFEs) and other agri-based MSMEs with consumer markets and institutional buyers. In collaboration with the private sector, LGUs and other government offices, AMAS organizes and supports local product promotion events as well as supports and participates in international promotion events showcasing Philippine export products in collaboration with other export promotion agencies."
+        },
+        {
+          "title": "Agribusiness Promotion",
+          "description": "Information on agribusiness investment opportunities are packaged and disseminated to stakeholders. In collaboration with the private sector, investment promotion agencies and LGUs, AMAS organizes and supports agribusiness investment promotion activities and events to attract private sector investments in agriculture and agribusiness in the respective LGU localities."
+        },
+        {
+          "title": "Agribusiness Development Services",
+          "description": "AMAS maintains the registry data base of Farmers and Fisherfolk Enterprises (FFEs) and agri-based MSMEs and provides business development services to FFEs and agri-based MSMEs. These include: (a) provision of management, technical support and assistance to marketing and agribusiness ventures of farmers and fisherfolk organizations and cooperatives such as business planning, ICT, business networking, market matching; (b) facilitating linkage to other government agencies and resource institutions in obtaining permits, licenses, training, loans and other services; (c) capacity building assistance to FFEs for institutional strengthening, access to markets and business linkage."
+        }
+      ],
+      "agency": {
+        "name": "AGRIBUSINESS AND MARKETING ASSISTANCE SERVICE (AMAS)",
+        "address": "1st Floor, DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
+        "tel": [
+          "(632) 8920.2216",
+          "(632) 8920.4072-73",
+          "(632) 8920.4077",
+          "(632) 8926.8203"
+        ],
+        "fax": "(632) 8926.6434",
+        "email": ["amas@da.gov.ph"],
+        "website": null
       }
     }
   ],
@@ -181,5 +217,85 @@
       }
     }
   ],
-  "services_5": []
+  "services_5": [
+    {
+      "category": "Agriculture and Fisheries Information Services",
+      "services_offered": [
+        "Provide briefing/orientation on the Department’s thrust, programs and services",
+        "Refer clients to specific DA Agency for their requests and needs and provide information, education and communication (IEC) materials",
+        "Refer clients' requests/queries aired over radio/TV programs and through letters to concerned DA Officials",
+        "Document DA activities and news articles for media release",
+        "Coordinate and facilitate DA Officials' media interviews with media organizations",
+        "Maintain an information board and post monthly activities of all the DA agencies"
+      ],
+      "agency": {
+        "name": "AGRICULTURE AND FISHERIES INFORMATION DIVISION (AFID)",
+        "address": "DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
+        "tel": ["(632) 8273.2474", "(632) 8928.8741"],
+        "fax": "(632) 8928.0588",
+        "email": "afid@mail.da.gov.ph",
+        "website": "https://www.da.gov.ph"
+      }
+    }
+  ],
+  "services_6": [
+    {
+      "category": "Soils and Water Services",
+      "services_offered": [
+        "Soil and Land Resources Evaluation, Assessment, and Mapping",
+        "Technical Evaluation on Land Use Matters",
+        "Soil Conservation Farm Planning and Establishment of Soil Conservation Guided Farm",
+        "Planning and Implementation of Rainwater Harvesting Facilities and Other Related Small Scale Irrigation Infrastructures",
+        "Cloud Seeding Operations",
+        "Multi-Functional Laboratory Services",
+        "Soil and Water Resources Research and Development",
+        "Soil and Water Information Systems, and Database Development and Management"
+      ],
+      "agency": {
+        "name": "BUREAU OF SOILS AND WATER MANAGEMENT (BSWM)",
+        "address": "Elliptical Road, Diliman, Quezon City, Philippines",
+        "tel": "(02) 8332.9534",
+        "fax": null,
+        "email": "customers.center@bswm.da.gov.ph",
+        "website": ["http://bswm.da.gov.ph/", "http://www.bswm.maps.da.gov.ph"]
+      }
+    }
+  ],
+  "services_7": [
+    {
+      "category": "Special Projects Coordination & Management Assistance",
+      "services_offered": [
+        "Ensure the smooth implementation of all DA Foreign-Assisted Projects (FAPs) and Locally-Funded Projects (LFPs)",
+        "Institutionalize with the Project Development Service (PDS), a system to effect smooth transition from Project Preparation to Project Implementation and from Project Completion to Project Evaluation",
+        "Provide information/assistance related to the different Foreign-Assisted and Locally-Funded Projects of the Department"
+      ],
+      "agency": {
+        "name": "SPECIAL PROJECTS COORDINATION AND MANAGEMENT ASSISTANCE DIVISION (SPCMAD)",
+        "address": "DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
+        "tel": ["(632) 8920.1767", "(632) 8273.2474", "(632) 8927.8741 to 64"],
+        "fax": "(632) 8920.1767",
+        "email": ["da_spcmad@yahoo.com", "spcmad.da@gmail.com"],
+        "website": null
+      }
+    }
+  ],
+  "services_8": [
+    {
+      "category": "Training and Extension Services",
+      "services_offered": [
+        "Scholarship Programs",
+        "Extension Programs and Projects",
+        "Training Services",
+        "Agriculture and Fisheries Extension (AFE) Grants System",
+        "e-Learning"
+      ],
+      "agency": {
+        "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
+        "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines",
+        "tel": ["(02) 8929.8541 to 49"],
+        "email": ["director@ati.da.gov.ph"],
+        "website": "https://ati2.da.gov.ph/ati-main/content/"
+      }
+    }
+  ]
 }
