@@ -3,5 +3,7 @@ export interface Article {
   title: string;
   author: string;
   thumbnail: string;
-  datePublished: Date;
+  datePublished: string;
+  content?: string;
+  imageUrl?: string[];
 }
