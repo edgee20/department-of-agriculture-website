@@ -144,7 +144,7 @@ export default function Footer() {
         </div>
       </div>
       {/* line break */}
-      <hr className="border-t-2 border-[#cda530] mx-8" />
+      <hr className="border-t-2 border-edpyellow mx-8" />
       {/* footer bottom external links */}
       <div className={`flex items-center justify-center py-4 ${LAYOUT_CONFIG}`}>
         {footer.map((value, index) => {
