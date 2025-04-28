@@ -51,7 +51,7 @@ export default function Navbar() {
         <div className=" flex items-center ">
           {/* image container */}
           <div className="px-7 py-2">
-            <Link href={""}>
+            <Link href={"/"}>
               <Image
                 src={"/images/doa-logo.png"}
                 alt={"logo"}

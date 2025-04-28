@@ -32,7 +32,7 @@ export default function ProjectTable() {
   const renderContent = (content: string) => {
     // Split content by newlines and map over each line, adding a <p> for each
     return content.split("\n\n").map((paragraph, index) => (
-      <p key={index} className="mt-4 text-justify">
+      <p key={index} className="mt-4 text-justify text-[14px]">
         {paragraph}
       </p>
     ));
