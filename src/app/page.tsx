@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import articleJson from "@/data/articleData.json";
 import { Article } from "@/lib/types/article";
+import ProjectTable from "@/components/ui/ProjectTable";
 
 const articles: Article[] = articleJson.articleData.article.map((article) => ({
   ...article,
@@ -86,6 +87,7 @@ export default function Home() {
           <h1 className="text-edpgreen text-[30px] font-bold py-3 text-center max-w-[500px]">
             Projects by the Department of Agriculture
           </h1>
+          <ProjectTable />
         </div>
       </div>
     </main>

@@ -24,6 +24,8 @@ const buttonVariants = cva(
           "bg-gray-300/60 border border-[2px] border-gray-300 text-white hover:bg-gray-300/70 text-[14px] font-bold",
         secondaryEDP:
           "bg-[#cda530]/60 border border-[2px] border-[#cda530] text-white hover:bg-[#cda530] text-[14px] font-bold",
+        projectEDP:
+          "bg-[#cda530]/60 border border-[2px] border-[#cda530] text-white text-[14px] font-bold",
       },
       size: {
         default: "h-9 px-6 py-2 has-[>svg]:px-3",

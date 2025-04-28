@@ -36,7 +36,7 @@ export const MultiCarousel = ({
         <CarouselContent
           className={cn(
             "flex w-full py-4 m-0",
-            isMobile ? "gap-0 px-4" : "gap-4 px-8" // Changed to px-8 for better containment
+            isMobile ? "gap-0 px-4" : "gap-4 px-8"
           )}
         >
           {articles.map((article, index) => (
@@ -44,14 +44,11 @@ export const MultiCarousel = ({
               key={index}
               className={cn(
                 "flex justify-center",
-                isMobile ? "basis-full" : "basis-1/3" // Changed to exact 1/3 for desktop
+                isMobile ? "basis-full" : "basis-1/3"
               )}
             >
               <div
-                className={cn(
-                  "w-full",
-                  isMobile ? "max-w-[350px]" : "px-2" // Added px-2 for desktop spacing
-                )}
+                className={cn("w-full", isMobile ? "max-w-[350px]" : "px-2")}
               >
                 <ArticleCard article={article} />
               </div>
