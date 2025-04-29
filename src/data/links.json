@@ -3,7 +3,7 @@
     { "title": "HOME", "link": "/" },
     { "title": "SERIVICES", "link": "/services" },
     { "title": "GALLERY", "link": "/" },
-    { "title": "SCHEDULE", "link": "/" },
+    { "title": "SCHEDULE", "link": "/schedule" },
     { "title": "CONTACT US", "link": "/" }
   ],
   "footer": [

@@ -29,13 +29,17 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <header>{/* <Navbar /> */}</header>
+      <header>
+        <Navbar />
+      </header>
       <html lang="en">
         <body className={`${inter.variable} ${niconne.variable} antialiased`}>
           {children}
         </body>
       </html>
-      <footer>{/* <Footer /> */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

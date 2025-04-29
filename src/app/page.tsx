@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import SchedulePage from "@/components/pages/SchedulePage";
-=======
 "use client";
->>>>>>> faf57a065353b58f52327e9ea78c06610237a04c
 import { Button } from "@/components/ui/button";
 import { MultiCarousel } from "@/components/ui/MultiCarousel";
 import SunDiv from "@/components/ui/SunDiv";
@@ -12,6 +8,7 @@ import articleJson from "@/data/articleData.json";
 import { Article } from "@/lib/types/article";
 import ProjectTable from "@/components/ui/ProjectTable";
 import { BG_CONFIG } from "@/lib/config";
+import Link from "next/link";
 
 const articles: Article[] = articleJson.articleData.article.map((article) => ({
   ...article,
@@ -42,9 +39,6 @@ export default function Home() {
 
   return (
     <main>
-<<<<<<< HEAD
-      <SchedulePage></SchedulePage>
-=======
       <div className="relative w-full h-[680px] overflow-hidden">
         {/* Background Image */}
         <div>
@@ -63,7 +57,9 @@ export default function Home() {
           <h1 className="text-white text-[40px] md:text-[55px] lg:text-[80px] font-bold italic text-center max-w-[1230px] px-4 pb-4">
             Masaganang Agrikultura, Maunlad na Ekonomiya!
           </h1>
-          <Button>SCHEDULE A MEETING</Button>
+          <Link href="/schedule">
+            <Button>SCHEDULE A MEETING</Button>
+          </Link>
         </div>
       </div>
 
@@ -182,7 +178,6 @@ export default function Home() {
           </div>
         </div>
       </div>
->>>>>>> faf57a065353b58f52327e9ea78c06610237a04c
     </main>
   );
 }
