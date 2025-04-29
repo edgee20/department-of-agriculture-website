@@ -1,0 +1,42 @@
+{
+  "articleData": {
+    "article": [
+      {
+        "id": "1",
+        "title": "Market Visit in Marikina Public Market",
+        "author": "DA-AFID",
+        "thumbnail": "/images/article-images/article-1.jpg",
+        "datePublished": "2025-04-21",
+        "content": ""
+      },
+      {
+        "id": "2",
+        "title": "Opening of the Filipino Food Month (FFM) and the High-Value Crops (HVC) Week at the DA Lobby",
+        "author": "DA-AFID",
+        "thumbnail": "/images/article-images/article-2.jpg",
+        "datePublished": "2025-04-16"
+      },
+      {
+        "id": "3",
+        "title": "Inauguration of Vaccine Unit at the Center for Transboundary Animal Diseases",
+        "author": "DA Press Office",
+        "thumbnail": "/images/article-images/article-3.jpg",
+        "datePublished": "2025-04-10"
+      },
+      {
+        "id": "4",
+        "title": "Filipino Food Month Opening Ceremony",
+        "author": "DA-AFID",
+        "thumbnail": "/images/article-images/article-4.jpg",
+        "datePublished": "2025-04-04"
+      },
+      {
+        "id": "5",
+        "title": "DA, PHLPost MOU Signing",
+        "author": "DA Press Office",
+        "thumbnail": "/images/article-images/article-5.jpg",
+        "datePublished": "2025-04-03"
+      }
+    ]
+  }
+}

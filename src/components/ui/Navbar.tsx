@@ -11,7 +11,7 @@ export default function Navbar() {
   const [menuOpened, setMenuOpened] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const COLOR_CONFIG = isScrolled
-    ? "bg-white text-epdgreen"
+    ? "bg-white text-edpgreen"
     : "bg-black/80 text-white";
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function Navbar() {
         <div className=" flex items-center ">
           {/* image container */}
           <div className="px-7 py-2">
-            <Link href={""}>
+            <Link href={"/"}>
               <Image
                 src={"/images/doa-logo.png"}
                 alt={"logo"}
@@ -65,7 +65,7 @@ export default function Navbar() {
           <div className="relative px-5 ">
             <div
               className={`h-13 w-[2px] ${
-                isScrolled ? "bg-[#1c2d10]" : "bg-white"
+                isScrolled ? "bg-edpgreen" : "bg-white"
               }`}
             />
             {/* Sun */}
@@ -127,7 +127,7 @@ export default function Navbar() {
       </div>
       <hr
         className={`border-t-2 ${
-          isScrolled ? "border-[#1c2d10]" : "border-white"
+          isScrolled ? "border-edpgreen" : "border-white"
         }`}
       />
     </main>

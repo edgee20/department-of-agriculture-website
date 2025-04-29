@@ -1,301 +1,340 @@
-{
-  "services_2": [
-    {
-      "category": "ATI ACCREDITATION SERVICES",
-      "services_offered": [
-        "Certification of Learning Site for Agriculture (LSA)",
-        "Accreditation of Private Agriculture and Fisheries Extension Service Provider (PAF-ESP)"
-      ],
-      "agency": {
-        "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
-        "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines 1100",
-        "tel": "(02) 8929.8541 to 49",
-        "email": "director@ati.da.gov.ph",
-        "website": "https://ati2.da.gov.ph/ati-main/content/"
-      }
-    },
-    {
-      "category": "BAFE REGULATORY SERVICES",
-      "services_offered": [
-        "Registration of Agricultural and Fisheries Machinery and Equipment",
-        "Certificate of Conformity for Agricultural and Fisheries Machinery"
-      ],
-      "agency": {
-        "name": "BUREAU OF AGRICULTURAL AND FISHERIES ENGINEERING (BAFE)",
-        "address": "Sugar Center, Annex II Building Extension, North Avenue, Diliman, Quezon City, Philippines",
-        "tel": ["(02) 8351.8120", "(02) 8294.9741"],
-        "email": "bafe@da.gov.ph",
-        "website": "https://bafe.gov.ph"
-      }
-    },
-    {
-      "category": "BAFS REGULATORY AND AGRICULTURAL ASSISTANCE SERVICES",
-      "services_offered": [
-        "Official Accreditation of Organic Certifying Bodies (OCBs)",
-        "Registration of Organic Farms / Producers",
-        "Registration of Organic Input Producer",
-        "Registration of Organic Input Product",
-        "Experimental Use Permit (EUP) – Organic Bio-Control Agent (OBCA)",
-        "Registration of Organic Input Importation or Exportation Permit"
-      ],
-      "agency": {
-        "name": "BUREAU OF AGRICULTURE AND FISHERIES STANDARDS (BAFS)",
-        "address": "BPI Compound, Visayas Avenue, Diliman, Quezon City, Philippines 1101",
-        "tel": "(632) 8928.8756 to 65",
-        "email": "bafs@da.gov.ph",
-        "website": "http://www.bafs.da.gov.ph/"
-      }
-    },
-    {
-      "category": "PLANTS AND BY-PRODUCTS SERVICES",
-      "services_offered": [
-        "Accreditation of Seed Grower / Producer",
-        "Application for Seed Certification",
-        "Application for Seed Testing",
-        "Application for Plant Material Certification of Asexually Propagated Seedling",
-        "Application for Plant Material Certification of Trees",
-        "Application for Plant Nursery Accreditation",
-        "Application for Plant Tissue Culture Facility Accreditation",
-        "Application for Laboratory Accreditation",
-        "Application for Laboratory Analysis",
-        "Application for Cold Storage Warehouse Accreditation",
-        "Application for PhilGAP Certification",
-        "Plant Pest Diagnosis",
-        "Plant Identification and Certification",
-        "Distribution and Sale of Vegetable Seeds and Planting Materials",
-        "Application for Crop Variety Registration",
-        "Application for Plant Variety Registration",
-        "Importers Registration",
-        "Application for Sanitary and Phytosanitary Import Clearance (SPSIC)",
-        "Application for Registration of Farm / Growers",
-        "Application for License to Export of Fresh Fruit and Vegetable",
-        "Application for License to Operate – Quarantine Treatment Provider",
-        "Application and Issuance of Phytosanitary Certificate",
-        "Issuance of Clearance for Domestic Transport",
-        "Application for License to Operate of Packing Facility for Fruits and Vegetables",
-        "Application for Issuance of Biosafety Permit for Direct Use as Food and Feed, or for Processing",
-        "Application for Issuance of Biosafety Permit for Commercial Propagation",
-        "Application for of Biosafety Permit for Field Trial"
-      ],
-      "agency": {
-        "name": "BUREAU OF PLANT INDUSTRY (BPI)",
-        "address": "692 San Andres Street, Malate, Manila, Philippines 1004",
-        "tel": ["(02) 8525.7857", "(02) 8525.7909"],
-        "fax": "(02) 8521.7650",
-        "email": "info@buplant.da.gov.ph",
-        "website": "https://www.buplant.da.gov.ph/"
-      }
-    },
-    {
-      "category": "ANIMALS AND BY-PRODUCTS SERVICES",
-      "services_offered": [
-        "Regulatory Services",
-        "Research and Development",
-        "Information, Education and Communication",
-        "Good Animal Husbandry Practices (GAHP) Certification Program"
-      ],
-      "agency": {
-        "name": "BUREAU OF ANIMAL INDUSTRY (BAI)",
-        "address": "Visayas Avenue, Diliman, Quezon City, Philippines 1100",
-        "tel": ["(632) 8925.4343", "(632) 8928.1778"],
-        "fax": "(632) 8928.2429",
-        "email": "dir.bai@manila-online.net",
-        "website": "http://www.bai.da.gov.ph"
-      }
-    },
-    {
-      "category": "MEATS AND BY-PRODUCTS SERVICES",
-      "services_offered": [
-        "Accreditation, Licensing, and Registration",
-        "Laboratory Testing and Analysis",
-        "License to Import",
-        "Meat Standards Development and Consumer Protection",
-        "Plant Operations Standards and Monitoring"
-      ],
-      "agency": {
-        "name": "NATIONAL MEAT INSPECTION SERVICE (NMIS)",
-        "address": "#4 Visayas Avenue, Barangay Vasra, Quezon City, Philippines",
-        "tel": "(02) 8924.7980",
-        "email": "nmis@nmis.gov.ph",
-        "website": "https://nmis.gov.ph/"
-      }
-    },
-    {
-      "category": "FISH AND BY-PRODUCTS SERVICES",
-      "services_offered": [
-        "Issuance of Certificate of Hazard Analysis",
-        "Chemical and Microbiological Services",
-        "Analytical Services for Marine Biotoxins",
-        "Issuance of Fish Health Laboratory Results",
-        "Issuance of Sanitary & Phytosanitary Clearance to Import (Old Clients)",
-        "Issuance of Sanitary & Phytosanitary Clearance to Import (New Applicants)",
-        "Issuance of Export Permit for Fish and By-Products (Old Clients)",
-        "Issuance of Export Permit for Fish and By-Products (New Applicants)",
-        "Inspection and Clearance of Imported/Incoming Fish and By-Products via the MDA/NAIA",
-        "Issuance of Clearance to Import Fishing Vessels",
-        "Issuance of Commercial Fishing/Gear License",
-        "Issuance of Fishing Gear Registration"
-      ],
-      "agency": {
-        "name": "BUREAU OF FISHERIES AND AQUATIC RESOURCES (BFAR)",
-        "address": "PCA Building, Diliman, Quezon City, Philippines",
-        "tel": ["(632) 8929.8074", "(632) 8924.9597"],
-        "email": "info@bfar.da.gov.ph",
-        "website": "https://www.bfar.da.gov.ph/"
-      }
-    },
-    {
-      "category": "FERTILIZER AND PESTICIDE RELATED SERVICES",
-      "services_offered": [
-        "Fertilizer Regulations Division (FRD)",
-        "Pesticide Regulations Division (PRD)",
-        "Laboratory Services Division (LSD)",
-        "Planning, Management, and Information Division (PMID)",
-        "Field Units (FUs)"
-      ],
-      "agency": {
-        "name": "FERTILIZER AND PESTICIDE AUTHORITY (FPA)",
-        "address": "FPA Building, BAI Compound, Visayas Avenue, Barangay Vasra, Diliman, Quezon City, Philippines",
-        "tel": ["(02) 8920.8173", "(02) 8426.1572", "(02) 8920.8573"],
-        "email": "fpacentral77@gmail.com",
-        "website": "https://fpa.da.gov.ph/NW/index.php"
-      }
-    }
-  ],
-  "services_3": [
-    {
-      "category": "Agribusiness and Marketing Assistance",
-      "services_offered": [
-        {
-          "title": "Market Information",
-          "description": "Provision of timely and reliable market information and analysis to agribusiness stakeholders. Updated data on prices along the value chain of basic agricultural commodities are regularly gathered and consolidated. Periodic updates and analyses on prices, volume, supply and demand are published in official websites and disseminated to stakeholders to provide insights on trends and factors affecting the agricultural marketing system to help market players make informed business decisions. Market research of Philippine agricultural products are undertaken to identify new local and international markets. The insights serve as guide to planners, producers and processors in crafting market development strategies in expanding their markets."
-        },
-        {
-          "title": "Market Linkage and Product Promotion",
-          "description": "Facilitation of linkages of farmers and fisherfolk enterprises (FFEs) and other agri-based MSMEs with consumer markets and institutional buyers. In collaboration with the private sector, LGUs and other government offices, AMAS organizes and supports local product promotion events as well as supports and participates in international promotion events showcasing Philippine export products in collaboration with other export promotion agencies."
-        },
-        {
-          "title": "Agribusiness Promotion",
-          "description": "Information on agribusiness investment opportunities are packaged and disseminated to stakeholders. In collaboration with the private sector, investment promotion agencies and LGUs, AMAS organizes and supports agribusiness investment promotion activities and events to attract private sector investments in agriculture and agribusiness in the respective LGU localities."
-        },
-        {
-          "title": "Agribusiness Development Services",
-          "description": "AMAS maintains the registry data base of Farmers and Fisherfolk Enterprises (FFEs) and agri-based MSMEs and provides business development services to FFEs and agri-based MSMEs. These include: (a) provision of management, technical support and assistance to marketing and agribusiness ventures of farmers and fisherfolk organizations and cooperatives such as business planning, ICT, business networking, market matching; (b) facilitating linkage to other government agencies and resource institutions in obtaining permits, licenses, training, loans and other services; (c) capacity building assistance to FFEs for institutional strengthening, access to markets and business linkage."
-        }
-      ],
-      "agency": {
-        "name": "AGRIBUSINESS AND MARKETING ASSISTANCE SERVICE (AMAS)",
-        "address": "1st Floor, DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
-        "tel": [
-          "(632) 8920.2216",
-          "(632) 8920.4072-73",
-          "(632) 8920.4077",
-          "(632) 8926.8203"
+[
+  {
+    "accordionTitle": "Accreditation of Civil Society Organizations",
+    "accordionData": [
+      {
+        "category": "Implementing Guidelines and Issuances",
+        "services_offered": [
+          "Administrative Circular No. 03 series of 2022 Revised Guidelines on the Accreditation of Civil Society Organizations (CSOs) to be Engaged by the Department of Agriculture (DA) as Partners in the Implementation of Agriculture and Fishery Projects",
+          "Administrative Order No. 13 series of 2020 Guidelines for the Accreditation of Civil Society Organization/s (CSO) to be Engaged by DA as Partner in the Implementation of Agri-Fishery Projects",
+          "Application Form for the Accreditation of Civil Society Organization/s (CSO) as Beneficiary of Government or Public Funds",
+          "Special Order No. 1124 series of 2019 Amendment to Special Order No. 1217 series of 2018, Re: Designation of Alternate Representatives to the  National Technical Committee for the Accreditation of Civil Society Organization (CSOs)",
+          "Special Order No. 527 series of 2019 Amendment to Special Order No. 1217 series of 2018 designating Assistant Secretary for Agribusiness and Marketing as Vice Chairperson of the National Technical Committee for the Accreditation of Civil Society Organizations (CSOs)",
+          "Special Order No. 364 series of 2019 Amendment to Special Order No. 1217 series of 2018 designating Ms. Ana Guatno as Alternate Member for the Financial and Management Service (FMS) to the National Technical Committee for the Accreditation of Civil Society Organizations (CSOs)",
+          "Special Order No. 1217 series of 2018 Designation of Alternate Representative to the National Technical Committee for the Accreditation of Civil Society Organizations (CSOs)",
+          "Administrative Order No. 08 Guidelines for the Accreditation of Civil Society Organizations (CSOs) to be Engaged by DA as Partner in the Implementation of Agri-Fishery Projects",
+          "Special Order No. 1093 series of 2017 Creation of National Technical Committee and Secretariat for the Accreditation of Civil Society Organizations (CSOs) to be Engaged by DA as Partner in the Implementation of DA Programs and Projects"
         ],
-        "fax": "(632) 8926.6434",
-        "email": ["amas@da.gov.ph"],
-        "website": null
+        "agency": {
+          "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
+          "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines",
+          "tel": ["(02) 8929.8541 to 49"],
+          "email": ["director@ati.da.gov.ph"],
+          "website": ["https://ati2.da.gov.ph/ati-main/content/"]
+        }
       }
-    }
-  ],
-  "services_4": [
-    {
-      "category": "Agricultural Credit and Financing Programs",
-      "services_offered": [
-        "Survival and Recovery (SURE) Assistance Program",
-        "Kapital Access for Young Agripreneurs (KAYA)",
-        "Agri-Negosyo Loan Program (ANYO)",
-        "Accessible Loans for Empowered, Resilient, and Transformed Agrarian Reform Beneficiary Organizations (ALERT ARBOs) Program"
-      ],
-      "agency": {
-        "name": "AGRICULTURAL CREDIT POLICY COUNCIL (ACPC)",
-        "address": "28th Floor, One San Miguel Avenue Building, San Miguel Avenue cor. Shaw Boulevard, Pasig City 1605, Philippines",
-        "tel": ["(02) 8634-3320 to 21", "(02) 8634-3326"],
-        "fax": "(02) 8634-3319",
-        "email": "info@acpc.gov.ph",
-        "website": "https://acpc.gov.ph/"
+    ]
+  },
+  {
+    "accordionTitle": "Accreditation, Licensing, Registration & Other Related Services",
+    "accordionData": [
+      {
+        "category": "ATI ACCREDITATION SERVICES",
+        "services_offered": [
+          "Certification of Learning Site for Agriculture (LSA)",
+          "Accreditation of Private Agriculture and Fisheries Extension Service Provider (PAF-ESP)"
+        ],
+        "agency": {
+          "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
+          "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines 1100",
+          "tel": ["(02) 8929.8541 to 49"],
+          "email": "director@ati.da.gov.ph",
+          "website": ["https://ati2.da.gov.ph/ati-main/content/"]
+        }
+      },
+      {
+        "category": "BAFE REGULATORY SERVICES",
+        "services_offered": [
+          "Registration of Agricultural and Fisheries Machinery and Equipment",
+          "Certificate of Conformity for Agricultural and Fisheries Machinery"
+        ],
+        "agency": {
+          "name": "BUREAU OF AGRICULTURAL AND FISHERIES ENGINEERING (BAFE)",
+          "address": "Sugar Center, Annex II Building Extension, North Avenue, Diliman, Quezon City, Philippines",
+          "tel": ["(02) 8351.8120", "(02) 8294.9741"],
+          "email": "bafe@da.gov.ph",
+          "website": ["https://bafe.gov.ph"]
+        }
+      },
+      {
+        "category": "BAFS REGULATORY AND AGRICULTURAL ASSISTANCE SERVICES",
+        "services_offered": [
+          "Official Accreditation of Organic Certifying Bodies (OCBs)",
+          "Registration of Organic Farms / Producers",
+          "Registration of Organic Input Producer",
+          "Registration of Organic Input Product",
+          "Experimental Use Permit (EUP) – Organic Bio-Control Agent (OBCA)",
+          "Registration of Organic Input Importation or Exportation Permit"
+        ],
+        "agency": {
+          "name": "BUREAU OF AGRICULTURE AND FISHERIES STANDARDS (BAFS)",
+          "address": "BPI Compound, Visayas Avenue, Diliman, Quezon City, Philippines 1101",
+          "tel": ["(632) 8928.8756 to 65"],
+          "email": "bafs@da.gov.ph",
+          "website": ["http://www.bafs.da.gov.ph/"]
+        }
+      },
+      {
+        "category": "PLANTS AND BY-PRODUCTS SERVICES",
+        "services_offered": [
+          "Accreditation of Seed Grower / Producer",
+          "Application for Seed Certification",
+          "Application for Seed Testing",
+          "Application for Plant Material Certification of Asexually Propagated Seedling",
+          "Application for Plant Material Certification of Trees",
+          "Application for Plant Nursery Accreditation",
+          "Application for Plant Tissue Culture Facility Accreditation",
+          "Application for Laboratory Accreditation",
+          "Application for Laboratory Analysis",
+          "Application for Cold Storage Warehouse Accreditation",
+          "Application for PhilGAP Certification",
+          "Plant Pest Diagnosis",
+          "Plant Identification and Certification",
+          "Distribution and Sale of Vegetable Seeds and Planting Materials",
+          "Application for Crop Variety Registration",
+          "Application for Plant Variety Registration",
+          "Importers Registration",
+          "Application for Sanitary and Phytosanitary Import Clearance (SPSIC)",
+          "Application for Registration of Farm / Growers",
+          "Application for License to Export of Fresh Fruit and Vegetable",
+          "Application for License to Operate – Quarantine Treatment Provider",
+          "Application and Issuance of Phytosanitary Certificate",
+          "Issuance of Clearance for Domestic Transport",
+          "Application for License to Operate of Packing Facility for Fruits and Vegetables",
+          "Application for Issuance of Biosafety Permit for Direct Use as Food and Feed, or for Processing",
+          "Application for Issuance of Biosafety Permit for Commercial Propagation",
+          "Application for of Biosafety Permit for Field Trial"
+        ],
+        "agency": {
+          "name": "BUREAU OF PLANT INDUSTRY (BPI)",
+          "address": "692 San Andres Street, Malate, Manila, Philippines 1004",
+          "tel": ["(02) 8525.7857", "(02) 8525.7909"],
+          "fax": "(02) 8521.7650",
+          "email": "info@buplant.da.gov.ph",
+          "website": ["https://www.buplant.da.gov.ph/"]
+        }
+      },
+      {
+        "category": "ANIMALS AND BY-PRODUCTS SERVICES",
+        "services_offered": [
+          "Regulatory Services",
+          "Research and Development",
+          "Information, Education and Communication",
+          "Good Animal Husbandry Practices (GAHP) Certification Program"
+        ],
+        "agency": {
+          "name": "BUREAU OF ANIMAL INDUSTRY (BAI)",
+          "address": "Visayas Avenue, Diliman, Quezon City, Philippines 1100",
+          "tel": ["(632) 8925.4343", "(632) 8928.1778"],
+          "fax": "(632) 8928.2429",
+          "email": "dir.bai@manila-online.net",
+          "website": ["http://www.bai.da.gov.ph"]
+        }
+      },
+      {
+        "category": "MEATS AND BY-PRODUCTS SERVICES",
+        "services_offered": [
+          "Accreditation, Licensing, and Registration",
+          "Laboratory Testing and Analysis",
+          "License to Import",
+          "Meat Standards Development and Consumer Protection",
+          "Plant Operations Standards and Monitoring"
+        ],
+        "agency": {
+          "name": "NATIONAL MEAT INSPECTION SERVICE (NMIS)",
+          "address": "#4 Visayas Avenue, Barangay Vasra, Quezon City, Philippines",
+          "tel": ["(02) 8924.7980"],
+          "email": "nmis@nmis.gov.ph",
+          "website": ["https://nmis.gov.ph/"]
+        }
+      },
+      {
+        "category": "FISH AND BY-PRODUCTS SERVICES",
+        "services_offered": [
+          "Issuance of Certificate of Hazard Analysis",
+          "Chemical and Microbiological Services",
+          "Analytical Services for Marine Biotoxins",
+          "Issuance of Fish Health Laboratory Results",
+          "Issuance of Sanitary & Phytosanitary Clearance to Import (Old Clients)",
+          "Issuance of Sanitary & Phytosanitary Clearance to Import (New Applicants)",
+          "Issuance of Export Permit for Fish and By-Products (Old Clients)",
+          "Issuance of Export Permit for Fish and By-Products (New Applicants)",
+          "Inspection and Clearance of Imported/Incoming Fish and By-Products via the MDA/NAIA",
+          "Issuance of Clearance to Import Fishing Vessels",
+          "Issuance of Commercial Fishing/Gear License",
+          "Issuance of Fishing Gear Registration"
+        ],
+        "agency": {
+          "name": "BUREAU OF FISHERIES AND AQUATIC RESOURCES (BFAR)",
+          "address": "PCA Building, Diliman, Quezon City, Philippines",
+          "tel": ["(632) 8929.8074", "(632) 8924.9597"],
+          "email": "info@bfar.da.gov.ph",
+          "website": ["https://www.bfar.da.gov.ph/"]
+        }
+      },
+      {
+        "category": "FERTILIZER AND PESTICIDE RELATED SERVICES",
+        "services_offered": [
+          "Fertilizer Regulations Division (FRD)",
+          "Pesticide Regulations Division (PRD)",
+          "Laboratory Services Division (LSD)",
+          "Planning, Management, and Information Division (PMID)",
+          "Field Units (FUs)"
+        ],
+        "agency": {
+          "name": "FERTILIZER AND PESTICIDE AUTHORITY (FPA)",
+          "address": "FPA Building, BAI Compound, Visayas Avenue, Barangay Vasra, Diliman, Quezon City, Philippines",
+          "tel": ["(02) 8920.8173", "(02) 8426.1572", "(02) 8920.8573"],
+          "email": "fpacentral77@gmail.com",
+          "website": ["https://fpa.da.gov.ph/NW/index.php"]
+        }
       }
-    }
-  ],
-  "services_5": [
-    {
-      "category": "Agriculture and Fisheries Information Services",
-      "services_offered": [
-        "Provide briefing/orientation on the Department’s thrust, programs and services",
-        "Refer clients to specific DA Agency for their requests and needs and provide information, education and communication (IEC) materials",
-        "Refer clients' requests/queries aired over radio/TV programs and through letters to concerned DA Officials",
-        "Document DA activities and news articles for media release",
-        "Coordinate and facilitate DA Officials' media interviews with media organizations",
-        "Maintain an information board and post monthly activities of all the DA agencies"
-      ],
-      "agency": {
-        "name": "AGRICULTURE AND FISHERIES INFORMATION DIVISION (AFID)",
-        "address": "DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
-        "tel": ["(632) 8273.2474", "(632) 8928.8741"],
-        "fax": "(632) 8928.0588",
-        "email": "afid@mail.da.gov.ph",
-        "website": "https://www.da.gov.ph"
+    ]
+  },
+  {
+    "accordionTitle": "Agribusiness and Marketing Assistance",
+    "accordionData": [
+      {
+        "category": "Agribusiness and Marketing Assistance",
+        "services_offered": [
+          "Market Information - Provision of timely and reliable market information and analysis to agribusiness stakeholders. Updated data on prices along the value chain of basic agricultural commodities are regularly gathered and consolidated. Periodic updates and analyses on prices, volume, supply and demand are published in official websites and disseminated to stakeholders to provide insights on trends and factors affecting the agricultural marketing system to help market players make informed business decisions. Market research of Philippine agricultural products are undertaken to identify new local and international markets. The insights serve as guide to planners, producers and processors in crafting market development strategies in expanding their markets.",
+          "Market Linkage and Product Promotion - Facilitation of linkages of farmers and fisherfolk enterprises (FFEs) and other agri-based MSMEs with consumer markets and institutional buyers. In collaboration with the private sector, LGUs and other government offices, AMAS organizes and supports local product promotion events as well as supports and participates in international promotion events showcasing Philippine export products in collaboration with other export promotion agencies.",
+          "Agribusiness Promotion - Information on agribusiness investment opportunities are packaged and disseminated to stakeholders. In collaboration with the private sector, investment promotion agencies and LGUs, AMAS organizes and supports agribusiness investment promotion activities and events to attract private sector investments in agriculture and agribusiness in the respective LGU localities.",
+          "Agribusiness Development Services - AMAS maintains the registry data base of Farmers and Fisherfolk Enterprises (FFEs) and agri-based MSMEs and provides business development services to FFEs and agri-based MSMEs. These include: (a) provision of management, technical support and assistance to marketing and agribusiness ventures of farmers and fisherfolk organizations and cooperatives such as business planning, ICT, business networking, market matching; (b) facilitating linkage to other government agencies and resource institutions in obtaining permits, licenses, training, loans and other services; (c) capacity building assistance to FFEs for institutional strengthening, access to markets and business linkage."
+        ],
+        "agency": {
+          "name": "AGRIBUSINESS AND MARKETING ASSISTANCE SERVICE (AMAS)",
+          "address": "1st Floor, DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
+          "tel": [
+            "(632) 8920.2216",
+            "(632) 8920.4072-73",
+            "(632) 8920.4077",
+            "(632) 8926.8203"
+          ],
+          "fax": "(632) 8926.6434",
+          "email": ["amas@da.gov.ph"]
+        }
       }
-    }
-  ],
-  "services_6": [
-    {
-      "category": "Soils and Water Services",
-      "services_offered": [
-        "Soil and Land Resources Evaluation, Assessment, and Mapping",
-        "Technical Evaluation on Land Use Matters",
-        "Soil Conservation Farm Planning and Establishment of Soil Conservation Guided Farm",
-        "Planning and Implementation of Rainwater Harvesting Facilities and Other Related Small Scale Irrigation Infrastructures",
-        "Cloud Seeding Operations",
-        "Multi-Functional Laboratory Services",
-        "Soil and Water Resources Research and Development",
-        "Soil and Water Information Systems, and Database Development and Management"
-      ],
-      "agency": {
-        "name": "BUREAU OF SOILS AND WATER MANAGEMENT (BSWM)",
-        "address": "Elliptical Road, Diliman, Quezon City, Philippines",
-        "tel": "(02) 8332.9534",
-        "fax": null,
-        "email": "customers.center@bswm.da.gov.ph",
-        "website": ["http://bswm.da.gov.ph/", "http://www.bswm.maps.da.gov.ph"]
+    ]
+  },
+  {
+    "accordionTitle": "Agricultural Credit and Financing Programs",
+    "accordionData": [
+      {
+        "category": "Agricultural Credit and Financing Programs",
+        "services_offered": [
+          "Survival and Recovery (SURE) Assistance Program",
+          "Kapital Access for Young Agripreneurs (KAYA)",
+          "Agri-Negosyo Loan Program (ANYO)",
+          "Accessible Loans for Empowered, Resilient, and Transformed Agrarian Reform Beneficiary Organizations (ALERT ARBOs) Program"
+        ],
+        "agency": {
+          "name": "AGRICULTURAL CREDIT POLICY COUNCIL (ACPC)",
+          "address": "28th Floor, One San Miguel Avenue Building, San Miguel Avenue cor. Shaw Boulevard, Pasig City 1605, Philippines",
+          "tel": ["(02) 8634-3320 to 21", "(02) 8634-3326"],
+          "fax": "(02) 8634-3319",
+          "email": "info@acpc.gov.ph",
+          "website": ["https://acpc.gov.ph/"]
+        }
       }
-    }
-  ],
-  "services_7": [
-    {
-      "category": "Special Projects Coordination & Management Assistance",
-      "services_offered": [
-        "Ensure the smooth implementation of all DA Foreign-Assisted Projects (FAPs) and Locally-Funded Projects (LFPs)",
-        "Institutionalize with the Project Development Service (PDS), a system to effect smooth transition from Project Preparation to Project Implementation and from Project Completion to Project Evaluation",
-        "Provide information/assistance related to the different Foreign-Assisted and Locally-Funded Projects of the Department"
-      ],
-      "agency": {
-        "name": "SPECIAL PROJECTS COORDINATION AND MANAGEMENT ASSISTANCE DIVISION (SPCMAD)",
-        "address": "DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
-        "tel": ["(632) 8920.1767", "(632) 8273.2474", "(632) 8927.8741 to 64"],
-        "fax": "(632) 8920.1767",
-        "email": ["da_spcmad@yahoo.com", "spcmad.da@gmail.com"],
-        "website": null
+    ]
+  },
+  {
+    "accordionTitle": "Agriculture and Fisheries Information Services",
+    "accordionData": [
+      {
+        "category": "Agriculture and Fisheries Information Services",
+        "services_offered": [
+          "Provide briefing/orientation on the Department’s thrust, programs and services",
+          "Refer clients to specific DA Agency for their requests and needs and provide information, education and communication (IEC) materials",
+          "Refer clients' requests/queries aired over radio/TV programs and through letters to concerned DA Officials",
+          "Document DA activities and news articles for media release",
+          "Coordinate and facilitate DA Officials' media interviews with media organizations",
+          "Maintain an information board and post monthly activities of all the DA agencies"
+        ],
+        "agency": {
+          "name": "AGRICULTURE AND FISHERIES INFORMATION DIVISION (AFID)",
+          "address": "DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
+          "tel": ["(632) 8273.2474", "(632) 8928.8741"],
+          "fax": "(632) 8928.0588",
+          "email": "afid@mail.da.gov.ph",
+          "website": ["https://www.da.gov.ph"]
+        }
       }
-    }
-  ],
-  "services_8": [
-    {
-      "category": "Training and Extension Services",
-      "services_offered": [
-        "Scholarship Programs",
-        "Extension Programs and Projects",
-        "Training Services",
-        "Agriculture and Fisheries Extension (AFE) Grants System",
-        "e-Learning"
-      ],
-      "agency": {
-        "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
-        "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines",
-        "tel": ["(02) 8929.8541 to 49"],
-        "email": ["director@ati.da.gov.ph"],
-        "website": "https://ati2.da.gov.ph/ati-main/content/"
+    ]
+  },
+  {
+    "accordionTitle": "Soils and Water Services",
+    "accordionData": [
+      {
+        "category": "Soils and Water Services",
+        "services_offered": [
+          "Soil and Land Resources Evaluation, Assessment, and Mapping",
+          "Technical Evaluation on Land Use Matters",
+          "Soil Conservation Farm Planning and Establishment of Soil Conservation Guided Farm",
+          "Planning and Implementation of Rainwater Harvesting Facilities and Other Related Small Scale Irrigation Infrastructures",
+          "Cloud Seeding Operations",
+          "Multi-Functional Laboratory Services",
+          "Soil and Water Resources Research and Development",
+          "Soil and Water Information Systems, and Database Development and Management"
+        ],
+        "agency": {
+          "name": "BUREAU OF SOILS AND WATER MANAGEMENT (BSWM)",
+          "address": "Elliptical Road, Diliman, Quezon City, Philippines",
+          "tel": ["(02) 8332.9534"],
+          "email": "customers.center@bswm.da.gov.ph",
+          "website": [
+            "http://bswm.da.gov.ph/",
+            "http://www.bswm.maps.da.gov.ph"
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  },
+  {
+    "accordionTitle": "Special Projects Coordination & Management Assistance",
+    "accordionData": [
+      {
+        "category": "Special Projects Coordination & Management Assistance",
+        "services_offered": [
+          "Ensure the smooth implementation of all DA Foreign-Assisted Projects (FAPs) and Locally-Funded Projects (LFPs)",
+          "Institutionalize with the Project Development Service (PDS), a system to effect smooth transition from Project Preparation to Project Implementation and from Project Completion to Project Evaluation",
+          "Provide information/assistance related to the different Foreign-Assisted and Locally-Funded Projects of the Department"
+        ],
+        "agency": {
+          "name": "SPECIAL PROJECTS COORDINATION AND MANAGEMENT ASSISTANCE DIVISION (SPCMAD)",
+          "address": "DA OSEC Building, Elliptical Road, Diliman, Quezon City, Philippines",
+          "tel": [
+            "(632) 8920.1767",
+            "(632) 8273.2474",
+            "(632) 8927.8741 to 64"
+          ],
+          "fax": "(632) 8920.1767",
+          "email": ["da_spcmad@yahoo.com", "spcmad.da@gmail.com"]
+        }
+      }
+    ]
+  },
+  {
+    "accordionTitle": "Accreditation, Licensing, Registration & Other Related Services",
+    "accordionData": [
+      {
+        "category": "Training and Extension Services",
+        "services_offered": [
+          "Scholarship Programs",
+          "Extension Programs and Projects",
+          "Training Services",
+          "Agriculture and Fisheries Extension (AFE) Grants System",
+          "e-Learning"
+        ],
+        "agency": {
+          "name": "AGRICULTURAL TRAINING INSTITUTE (ATI)",
+          "address": "ATI Building, Elliptical Road, Diliman, Quezon City, Philippines",
+          "tel": ["(02) 8929.8541 to 49"],
+          "email": ["director@ati.da.gov.ph"],
+          "website": ["https://ati2.da.gov.ph/ati-main/content/"]
+        }
+      }
+    ]
+  }
+]
