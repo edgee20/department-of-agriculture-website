@@ -8,6 +8,7 @@ import articleJson from "@/data/articleData.json";
 import { Article } from "@/lib/types/article";
 import ProjectTable from "@/components/ui/ProjectTable";
 import { BG_CONFIG } from "@/lib/config";
+import Link from "next/link";
 
 const articles: Article[] = articleJson.articleData.article.map((article) => ({
   ...article,
@@ -56,7 +57,9 @@ export default function Home() {
           <h1 className="text-white text-[40px] md:text-[55px] lg:text-[80px] font-bold italic text-center max-w-[1230px] px-4 pb-4">
             Masaganang Agrikultura, Maunlad na Ekonomiya!
           </h1>
-          <Button>SCHEDULE A MEETING</Button>
+          <Link href="/schedule">
+            <Button>SCHEDULE A MEETING</Button>
+          </Link>
         </div>
       </div>
 
