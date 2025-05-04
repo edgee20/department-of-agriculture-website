@@ -11,11 +11,12 @@ import { buttonVariants } from "@/components/ui/button";
 function Calendar({
   className,
   classNames,
+  showOutsideDays = true,
   ...props
 }: React.ComponentProps<typeof DayPicker>) {
   return (
     <DayPicker
-      showOutsideDays={true}
+      showOutsideDays={showOutsideDays}
       locale={{
         ...enUS,
         options: { weekStartsOn: 1 },

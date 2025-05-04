@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { Article } from "@/lib/types/article";
 
 interface ArticleCardProps {
@@ -9,8 +10,9 @@ interface ArticleCardProps {
 }
 
 export default function ArticleCard({ article }: ArticleCardProps) {
+  const router = useRouter();
   const handleClick = () => {
-    console.log(`article "${article.title}" clicked`);
+    router.push(`/article/${article.id}`);
   };
 
   const formattedDate = new Date(article.datePublished).toLocaleDateString(

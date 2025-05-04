@@ -2,9 +2,9 @@
   "links": [
     { "title": "HOME", "link": "/" },
     { "title": "SERVICES", "link": "/services" },
-    { "title": "GALLERY", "link": "/" },
+    { "title": "GALLERY", "link": "/article/1" },
     { "title": "SCHEDULE", "link": "/schedule" },
-    { "title": "CONTACT US", "link": "/" }
+    { "title": "CONTACT US", "link": "/contact-us" }
   ],
   "footer": [
     { "title": "GOVPH", "link": "https://www.gov.ph/" },
