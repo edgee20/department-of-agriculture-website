@@ -105,6 +105,7 @@ export default function Navbar() {
                     key={index}
                     href={`${value.link}`}
                     className="px-4 py-2"
+                    onClick={() => setMenuOpened(!menuOpened)}
                   >
                     {value.title}
                   </Link>

@@ -7,14 +7,12 @@ import { BG_CONFIG } from "@/lib/config";
 import React, { useState } from "react";
 
 export default function SchedulePage() {
-  // State for inputs
   const [fullName, setFullName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [phoneNumber, setPhoneNumber] = useState<string>("");
   const [date, setDate] = useState<Date | undefined>(new Date());
   const [selectedTime, setSelectedTime] = useState<string>("");
 
-  // Error states
   const [errors, setErrors] = useState({
     fullName: "",
     email: "",
@@ -23,7 +21,6 @@ export default function SchedulePage() {
     time: "",
   });
 
-  // Time slots array
   const timeSlots = [
     "8:00am - 9:00am",
     "9:00am - 10:00am",
@@ -110,63 +107,76 @@ export default function SchedulePage() {
   };
 
   return (
-    <div>
-      {/* fill up container */}
-      <div className="flex flex-col items-center mb-20">
-        <hr className="border-t-2 border-[#cda530] mt-6 mx-5 w-[calc(100%-5rem)]"></hr>
-        <div className="mt-12 bg-white border rounded-[25px] pr-30 pl-30 pt-15 pb-15 shadow-lg w-[800px] border-black mb-10px">
-          <div className="[&>h3]:font-semibold [&>h3]:pb-3">
-            <h3>Full Name *</h3>
-            <Input
-              type="text"
-              placeholder="Enter name"
-              value={fullName}
-              onChange={(e) => setFullName(e.target.value)}
-              className={errors.fullName ? "border-red-500" : ""}
-            />
-            {errors.fullName && (
-              <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>
-            )}
+    <div className="">
+      {/* Header */}
+      <div className="flex flex-col items-center mb-20 px-4">
+        <hr className="border-t-2 border-[#cda530] mt-6 mx-5 w-[calc(100%-5rem)]" />
 
-            <h3 className="mt-7">Email *</h3>
-            <Input
-              type="email"
-              placeholder="Enter email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className={errors.email ? "border-red-500" : ""}
-            />
-            {errors.email && (
-              <p className="text-red-500 text-sm mt-1">{errors.email}</p>
-            )}
+        {/* Input Form */}
+        <div className="mt-12 bg-white border rounded-[25px] px-8 py-6 xl:px-30 xl:py-15 shadow-lg border-black w-full max-w-3xl mx-auto">
+          <div className="space-y-6">
+            <div>
+              <h3 className="font-semibold pb-2">Full Name *</h3>
+              <Input
+                type="text"
+                placeholder="Enter name"
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
+                className={`w-full ${errors.fullName ? "border-red-500" : ""}`}
+              />
+              {errors.fullName && (
+                <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>
+              )}
+            </div>
 
-            <h3 className="mt-7">Phone Number *</h3>
-            <Input
-              type="number"
-              placeholder="Enter phone number"
-              value={phoneNumber}
-              onChange={(e) => setPhoneNumber(e.target.value)}
-              className={errors.phoneNumber ? "border-red-500" : ""}
-            />
-            {errors.phoneNumber && (
-              <p className="text-red-500 text-sm mt-1">{errors.phoneNumber}</p>
-            )}
+            <div>
+              <h3 className="font-semibold pb-2">Email *</h3>
+              <Input
+                type="email"
+                placeholder="Enter email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className={`w-full ${errors.email ? "border-red-500" : ""}`}
+              />
+              {errors.email && (
+                <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+              )}
+            </div>
+
+            <div>
+              <h3 className="font-semibold pb-2">Phone Number *</h3>
+              <Input
+                type="number"
+                placeholder="Enter phone number"
+                value={phoneNumber}
+                onChange={(e) => setPhoneNumber(e.target.value)}
+                className={`w-full ${
+                  errors.phoneNumber ? "border-red-500" : ""
+                }`}
+              />
+              {errors.phoneNumber && (
+                <p className="text-red-500 text-sm mt-1">
+                  {errors.phoneNumber}
+                </p>
+              )}
+            </div>
           </div>
         </div>
       </div>
 
       {/* Calendar & Time */}
-      <div className="relative bg-edpgreen overflow-hidden pt-8 pb-8 lg:p-8 flex flex-col items-center mb-7">
+      <div className="relative bg-edpgreen overflow-hidden pt-8 pb-8 px-4 lg:px-8 flex flex-col items-center mb-7">
         <div className={`${BG_CONFIG}`}></div>
-        <div className="z-10 relative">
+        <div className="z-10 relative w-full max-w-6xl">
           <SunDiv title={"Select Date & Time"} />
-          <div className="flex justify-between w-full mt-10">
-            <div>
+          <div className="flex flex-col lg:flex-row lg:px-40 justify-between w-full mt-10 gap-4">
+            {/* Calendar */}
+            <div className="flex flex-col items-center">
               <Calendar
                 mode="single"
                 selected={date}
                 onSelect={setDate}
-                className="rounded-md mt-9"
+                className="rounded-md"
               />
               {errors.date && (
                 <p className="text-red-300 text-sm mt-2 text-center">
@@ -174,9 +184,10 @@ export default function SchedulePage() {
                 </p>
               )}
             </div>
-            {/* Render time slot buttons */}
-            <div className="mt-12 ml-10">
-              <h3 className="text-white text-lg font-medium mb-4 ml-8">
+
+            {/* Time Slots */}
+            <div>
+              <h3 className="text-white text-lg font-medium mb-4 xl:ml-8 text-center xl:text-left">
                 {date
                   ? date.toLocaleDateString("en-US", {
                       weekday: "long",
@@ -185,14 +196,12 @@ export default function SchedulePage() {
                     })
                   : "Select a date"}
               </h3>
-              <div className="grid grid-cols-2 gap-6 ml-8 shadow-black">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 xl:ml-8">
                 {timeSlots.map((slot, index) => (
                   <Button
                     key={index}
-                    variant={
-                      selectedTime === slot ? "secondaryEDP" : "secondaryEDP"
-                    }
-                    className={`p-9 w-60 ${
+                    variant="secondaryEDP"
+                    className={`p-8 w-full ${
                       selectedTime === slot ? "bg-edpyellow" : ""
                     }`}
                     onClick={() => setSelectedTime(slot)}
@@ -202,13 +211,17 @@ export default function SchedulePage() {
                 ))}
               </div>
               {errors.time && (
-                <p className="text-red-300 text-sm mt-2 ml-8">{errors.time}</p>
+                <p className="text-red-300 text-sm mt-2 ml-2 xl:ml-8">
+                  {errors.time}
+                </p>
               )}
             </div>
           </div>
         </div>
+
+        {/* Submit Button */}
         <div className="mt-10 text-center">
-          <Button className="mt-5 mb-10 h-10 w-70" onClick={handleSubmit}>
+          <Button className="mt-5 mb-10 h-10 w-48" onClick={handleSubmit}>
             CONFIRM
           </Button>
         </div>

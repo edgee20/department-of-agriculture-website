@@ -5,7 +5,7 @@ import { FaLocationDot, FaClock } from "react-icons/fa6";
 
 const ContactCard = () => {
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-2xl mx-auto p-6 bg-white">
       <h1 className="text-3xl font-bold text-center mb-8 mt-9">
         Get In Touch With Us Now!
       </h1>

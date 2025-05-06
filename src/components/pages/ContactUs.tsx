@@ -26,7 +26,9 @@ export default function ContactUs() {
     category: "",
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -122,7 +124,7 @@ export default function ContactUs() {
   return (
     <div>
       {/* Banner Section */}
-      <div className="relative w-full h-[425px] overflow-hidden mb-3">
+      <div className="relative w-full h-[375px] overflow-hidden mb-6">
         <Image
           src="/images/image.png"
           alt="Department of Agriculture Building"
@@ -212,13 +214,12 @@ export default function ContactUs() {
                 </div>
                 <div>
                   <h3>Message *</h3>
-                  <Input
+                  <textarea
                     name="message"
-                    type="text"
                     value={formData.message}
                     onChange={handleInputChange}
                     placeholder="Your message"
-                    className="w-full rounded-xl bg-white border-0 h-40 text-black"
+                    className="w-full rounded-xl bg-white border-0 h-40 text-black overflow-y-auto resize-none p-2 text-sm"
                   />
                   {errors.message && (
                     <p className="text-red-300 text-sm mt-1">

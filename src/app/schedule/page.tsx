@@ -7,7 +7,7 @@ export default function Schedule() {
     <div>
       <div className="relative bg-edpgreen overflow-hidden pt-8 pb-8 lg:p-8">
         <div className={`${BG_CONFIG}`}></div>
-        <div className="z-10 relative mt-[30px] p-[120px] italic">
+        <div className="z-10 relative mt-[30px] p-[90px] italic">
           <SunDiv title={"Schedule an Appointment"} />
           <div className="flex"></div>
         </div>
